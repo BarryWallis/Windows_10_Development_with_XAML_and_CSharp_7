@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "Chapter1\App1\App1.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter2", "Chapter2", "{AA1A22F0-1897-4EEC-BAC4-A1DEAF4CC413}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "Chapter2\App1\App1.csproj", "{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -37,12 +39,31 @@ Global
 		{2981C74E-207F-4B5E-A7FC-C1C6F310E1CD}.Release|x86.ActiveCfg = Release|x86
 		{2981C74E-207F-4B5E-A7FC-C1C6F310E1CD}.Release|x86.Build.0 = Release|x86
 		{2981C74E-207F-4B5E-A7FC-C1C6F310E1CD}.Release|x86.Deploy.0 = Release|x86
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|ARM.Build.0 = Debug|ARM
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|ARM.Deploy.0 = Debug|ARM
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|x64.ActiveCfg = Debug|x64
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|x64.Build.0 = Debug|x64
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|x64.Deploy.0 = Debug|x64
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|x86.ActiveCfg = Debug|x86
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|x86.Build.0 = Debug|x86
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Debug|x86.Deploy.0 = Debug|x86
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|ARM.ActiveCfg = Release|ARM
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|ARM.Build.0 = Release|ARM
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|ARM.Deploy.0 = Release|ARM
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|x64.ActiveCfg = Release|x64
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|x64.Build.0 = Release|x64
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|x64.Deploy.0 = Release|x64
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|x86.ActiveCfg = Release|x86
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|x86.Build.0 = Release|x86
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2981C74E-207F-4B5E-A7FC-C1C6F310E1CD} = {7142F61C-8790-4143-9BA0-A93CD92387FA}
+		{17BF30E1-DC2E-4D6A-923C-755E106EE3F5} = {AA1A22F0-1897-4EEC-BAC4-A1DEAF4CC413}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3E4FE8C-F595-4651-AB26-1DA6236192FC}
