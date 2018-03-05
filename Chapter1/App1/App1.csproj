@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.0.6</Version>
+      <Version>6.0.7</Version>
     </PackageReference>
     <PackageReference Include="newtonsoft.json">
       <Version>11.0.1</Version>

@@ -1,0 +1,22 @@
+﻿
+// This file is used by Code Analysis to maintain SuppressMessage 
+// attributes that are applied to this project.
+// Project-level suppressions either have no target or are given 
+// a specific target and scoped to a namespace, type, member, etc.
+
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0008:Use explicit type", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Services.ActivationService.ActivateAsync(System.Object)~System.Threading.Tasks.Task")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Activation.ActivationHandler`1.CanHandle(System.Object)~System.Boolean")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Activation.ActivationHandler`1.CanHandleInternal(`0)~System.Boolean")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Activation.ActivationHandler`1.HandleAsync(System.Object)~System.Threading.Tasks.Task")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0021:Use expression body for constructors", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Activation.DefaultLaunchActivationHandler.#ctor(System.Type)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Activation.DefaultLaunchActivationHandler.CanHandleInternal(Windows.ApplicationModel.Activation.LaunchActivatedEventArgs)~System.Boolean")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.App.CreateActivationService~Controls12.Services.ActivationService")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.App.OnActivated(Windows.ApplicationModel.Activation.IActivatedEventArgs)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Helpers.ResourceExtensions.GetLocalized(System.String)~System.String")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Services.ActivationService.Frame_Navigated(System.Object,Windows.UI.Xaml.Navigation.NavigationEventArgs)")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Services.ActivationService.InitializeAsync~System.Threading.Tasks.Task")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Services.ActivationService.IsInteractive(System.Object)~System.Boolean")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0022:Use expression body for methods", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Services.ActivationService.StartupAsync~System.Threading.Tasks.Task")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0021:Use expression body for constructors", Justification = "<Pending>", Scope = "member", Target = "~M:Controls12.Views.MainPage.#ctor")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0025:Use expression body for properties", Justification = "<Pending>", Scope = "member", Target = "~P:Controls12.App.ActivationService")]
+[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0025:Use expression body for properties", Justification = "<Pending>", Scope = "member", Target = "~P:Controls12.Helpers.Singleton`1.Instance")]
