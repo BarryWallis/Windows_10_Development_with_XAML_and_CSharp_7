@@ -18,9 +18,11 @@ namespace App1.Views
 
         private void NavigateBtn_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             this.Frame.Navigate(typeof(PageTwoPage), ((this.DataContext as MainViewModel) != null)
                 ? (this.DataContext as MainViewModel).MyCustomer
                 : (new Customer() { FirstName = "Jane", LastName = "Doe" }));
+#pragma warning restore IDE0022 // Use expression body for methods
         }
     }
 }

@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activation\ActivationHandler.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Helpers\IntegerToBooleanConverter.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Services\ActivationService.cs" />

@@ -18,17 +18,23 @@ namespace Controls4.Activation
 
         public override async Task HandleAsync(object args)
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             await HandleInternalAsync(args as T);
+#pragma warning restore IDE0022 // Use expression body for methods
         }
 
         public override bool CanHandle(object args)
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             return args is T && CanHandleInternal(args as T);
+#pragma warning restore IDE0022 // Use expression body for methods
         }
 
         protected virtual bool CanHandleInternal(T args)
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             return true;
+#pragma warning restore IDE0022 // Use expression body for methods
         }
     }
 }

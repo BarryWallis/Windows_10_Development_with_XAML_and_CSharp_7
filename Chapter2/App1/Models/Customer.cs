@@ -13,7 +13,9 @@ namespace App1.Models
         private string firstName;
         public string FirstName
         {
+#pragma warning disable IDE0027 // Use expression body for accessors
             get { return firstName; }
+#pragma warning restore IDE0027 // Use expression body for accessors
             set
             {
                 if (firstName != value)
@@ -27,7 +29,9 @@ namespace App1.Models
         private string lastName;
         public string LastName
         {
+#pragma warning disable IDE0027 // Use expression body for accessors
             get { return lastName; }
+#pragma warning restore IDE0027 // Use expression body for accessors
             set
             {
                 if (lastName != value)

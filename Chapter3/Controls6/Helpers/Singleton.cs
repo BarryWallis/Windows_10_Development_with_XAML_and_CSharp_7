@@ -12,7 +12,9 @@ namespace Controls6.Helpers
         {
             get
             {
+#pragma warning disable IDE0025 // Use expression body for properties
                 return _instances.GetOrAdd(typeof(T), (t) => new T());
+#pragma warning restore IDE0025 // Use expression body for properties
             }
         }
     }

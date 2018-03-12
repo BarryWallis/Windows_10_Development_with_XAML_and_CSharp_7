@@ -13,7 +13,9 @@ namespace Controls5b
 
         private ActivationService ActivationService
         {
+#pragma warning disable IDE0025 // Use expression body for properties
             get { return _activationService.Value; }
+#pragma warning restore IDE0025 // Use expression body for properties
         }
 
         public App()
@@ -34,12 +36,16 @@ namespace Controls5b
 
         protected override async void OnActivated(IActivatedEventArgs args)
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             await ActivationService.ActivateAsync(args);
+#pragma warning restore IDE0022 // Use expression body for methods
         }
 
         private ActivationService CreateActivationService()
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             return new ActivationService(this, typeof(Views.MainPage));
+#pragma warning restore IDE0022 // Use expression body for methods
         }
     }
 }

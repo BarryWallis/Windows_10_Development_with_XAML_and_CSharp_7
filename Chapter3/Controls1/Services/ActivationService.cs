@@ -52,7 +52,9 @@ namespace Controls1.Services
                 }
             }
 
+#pragma warning disable IDE0008 // Use explicit type
             var activationHandler = GetActivationHandlers()
+#pragma warning restore IDE0008 // Use explicit type
                                                 .FirstOrDefault(h => h.CanHandle(activationArgs));
 
             if (activationHandler != null)
@@ -62,7 +64,9 @@ namespace Controls1.Services
 
             if (IsInteractive(activationArgs))
             {
+#pragma warning disable IDE0008 // Use explicit type
                 var defaultHandler = new DefaultLaunchActivationHandler(_defaultNavItem);
+#pragma warning restore IDE0008 // Use explicit type
                 if (defaultHandler.CanHandle(activationArgs))
                 {
                     await defaultHandler.HandleAsync(activationArgs);
@@ -95,13 +99,17 @@ namespace Controls1.Services
 
         private bool IsInteractive(object args)
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             return args is IActivatedEventArgs;
+#pragma warning restore IDE0022 // Use expression body for methods
         }
 
         private void Frame_Navigated(object sender, NavigationEventArgs e)
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = NavigationService.CanGoBack ?
                 AppViewBackButtonVisibility.Visible : AppViewBackButtonVisibility.Collapsed;
+#pragma warning restore IDE0022 // Use expression body for methods
         }
 
         private void ActivationService_BackRequested(object sender, BackRequestedEventArgs e)

@@ -14,7 +14,9 @@ namespace App1.Views
 
         public PageTwoPage()
         {
+#pragma warning disable IDE0021 // Use expression body for constructors
             InitializeComponent();
+#pragma warning restore IDE0021 // Use expression body for constructors
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

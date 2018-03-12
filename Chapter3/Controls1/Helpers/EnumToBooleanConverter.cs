@@ -17,7 +17,9 @@ namespace Controls1.Helpers
                     throw new ArgumentException("ExceptionEnumToBooleanConverterValueMustBeAnEnum".GetLocalized());
                 }
 
+#pragma warning disable IDE0008 // Use explicit type
                 var enumValue = Enum.Parse(EnumType, enumString);
+#pragma warning restore IDE0008 // Use explicit type
 
                 return enumValue.Equals(value);
             }

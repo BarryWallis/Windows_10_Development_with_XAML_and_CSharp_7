@@ -13,7 +13,9 @@ namespace App1.Activation
 
         public DefaultLaunchActivationHandler(Type navElement)
         {
+#pragma warning disable IDE0021 // Use expression body for constructors
             _navElement = navElement;
+#pragma warning restore IDE0021 // Use expression body for constructors
         }
 
         protected override async Task HandleInternalAsync(LaunchActivatedEventArgs args)
@@ -28,7 +30,9 @@ namespace App1.Activation
         protected override bool CanHandleInternal(LaunchActivatedEventArgs args)
         {
             // None of the ActivationHandlers has handled the app activation
+#pragma warning disable IDE0022 // Use expression body for methods
             return NavigationService.Frame.Content == null;
+#pragma warning restore IDE0022 // Use expression body for methods
         }
     }
 }

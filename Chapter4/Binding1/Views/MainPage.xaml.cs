@@ -13,7 +13,9 @@ namespace Binding1.Views
 
         public MainPage()
         {
+#pragma warning disable IDE0021 // Use expression body for constructors
             InitializeComponent();
+#pragma warning restore IDE0021 // Use expression body for constructors
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

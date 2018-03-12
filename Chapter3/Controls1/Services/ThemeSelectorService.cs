@@ -16,7 +16,9 @@ namespace Controls1.Services
 
         public static async Task InitializeAsync()
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             Theme = await LoadThemeFromSettingsAsync();
+#pragma warning restore IDE0022 // Use expression body for methods
         }
 
         public static async Task SetThemeAsync(ElementTheme theme)
@@ -50,7 +52,9 @@ namespace Controls1.Services
 
         private static async Task SaveThemeInSettingsAsync(ElementTheme theme)
         {
+#pragma warning disable IDE0022 // Use expression body for methods
             await ApplicationData.Current.LocalSettings.SaveAsync(SettingsKey, theme.ToString());
+#pragma warning restore IDE0022 // Use expression body for methods
         }
     }
 }
